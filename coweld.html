@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/PCLA-01.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCL ACADEMY</title>
+    <link rel="stylesheet" href="css/coweld.css">
+</head>
+<body oncontextmenu="return false" controlslist="nodownload">
+    <header class="header1">
+        <nav>
+            <a href="department.html"><-back</a>
+            <a id="logout">logout</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <a id="account-details" class="accountsss"></a>
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="images/department/test1.png">
+                <div class="content">
+                    <div class="author">COWELD</div>
+                    <div class="title">HEALTH AWARENESS</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        encompasses understanding, recognizing, and acting upon the factors that contribute to one's overall well-being. It involves being informed about various aspects of health, including physical, mental, emotional, and social dimensions.
+                    </div>
+                    <div class="buttons">
+                        <button onclick="window.location='coweldmodule.html'">SEE MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/department/test2.png">
+                <div class="content">
+                    <div class="author">COWELD</div>
+                    <div class="title">SAFETY STANDARDS</div>
+                    <div class="des">
+                        designed to ensure the safety of products, activities and processes, etc. They may be advisory or compulsory and are normally laid down by an advisory or regulatory body that may be either voluntary or statutory.
+                    </div>
+                    <div class="buttons" onclick="window.location='safetymodule.html'">
+                        <button>SEE MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/department/test3.png">
+                <div class="content">
+                    <div class="author">COWELD</div>
+                    <div class="title">COMPLIANCE</div>
+                    <div class="des">
+                        essential for maintaining order, safety, and integrity within various domains. It often involves monitoring, auditing, and enforcing adherence to established rules and standards to mitigate risks and ensure accountability.
+                    </div>
+                    <div class="buttons" onclick="window.location='compliancemodule.html'">
+                        <button>SEE MORE</button>
+                    </div>
+                </div>      
+            </div>
+            <div class="item">
+                <img src="images/department/test4.png">
+                <div class="content">
+                    <div class="author">COWELD</div>
+                    <div class="title">INFORMATION TECHNOLOGY</div>
+                    <div class="des">
+                        plays a crucial role in managing the technology infrastructure and supporting the technological needs of the business
+                    </div>
+                    <div class="buttons" onclick="window.location='ITmodule.html'">
+                        <button>SEE MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumbnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="images/department/health.png">
+                <div class="content">
+                    <div class="title" style="font-weight: bold;">
+                        HEALTH
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/department/safety.png" style="font-weight: bold;">
+                <div class="content">
+                    <div class="title">
+                        SAFETY
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/department/compliance.png">
+                <div class="content">
+                    <div class="title">
+                        COMPLIANCE
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/department/it.png">
+                <div class="content">
+                    <div class="title">
+                        IT
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="js/coweld.js"></script>
+    <div class="loader"></div>
+</body>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+    import { getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyCYMZyy7JSbJbG4Nif-ekkTqwuI-0fbUU0",
+        authDomain: "pcl-academy-89a25.firebaseapp.com",
+        databaseURL: "https://pcl-academy-89a25-default-rtdb.firebaseio.com",
+        projectId: "pcl-academy-89a25",
+        storageBucket: "pcl-academy-89a25.appspot.com",
+        messagingSenderId: "123284274189",
+        appId: "1:123284274189:web:9228fd272012704e7fa944"
+    };
+    const app = initializeApp(firebaseConfig);
+
+
+    const auth = getAuth();
+
+    onAuthStateChanged(auth, (user) => {
+    if (user) {
+    const uid = user.uid;
+    const accountDetails = document.querySelector('#account-details');
+    const html = ` <div>Logged in as : ${user.email}</div>`;
+    accountDetails.innerHTML = html;
+
+
+     } else {
+        window.location.href = "index.html";
+    }
+    });
+
+    const logout = document.querySelector('#logout');
+        logout.addEventListener('click',(e)=>{
+            e.preventDefault();
+            signOut(auth).then(() => {
+            alert('User Logged Out!');
+            window.location.href = "index.html";
+
+        }).catch((error) => {
+        // An error happened.
+        });
+
+        });
+
+    
+</script>
+</html>
