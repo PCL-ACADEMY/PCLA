@@ -82,6 +82,11 @@ function clicked(element){
    playingNow();
 }
 
+
+function examtoggle0000(){
+   var e0000= document.querySelector('.exampop0000')
+   e0000.classList.toggle('active')
+}
 function examtoggle000(){
    var e000= document.querySelector('.exampop000')
    e000.classList.toggle('active')

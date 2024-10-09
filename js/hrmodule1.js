@@ -1,67 +1,67 @@
 let allVideos = [
    {
+      name: "Work Ethics",
+      src: "./Module/hr/Work-Ethics",
+      id: "vid_1"
+   },
+   {
       name: "Goal Setting",
       src: "./Module/hr/Goal-Setting",
-      id: "vid_1"
+      id: "vid_2"
    },
    {
       name: "Self Management",
       src: "./Module/hr/Self-Management",
-      id: "vid_2"
+      id: "vid_3"
    },
    {
       name: "Time Management",
       src: "./Module/hr/Time-Management",
-      id: "vid_3"
+      id: "vid_4"
    },
    {
       name: "Communication Etiquette",
       src: "./Module/hr/Communication-Etiquette",
-      id: "vid_4"
+      id: "vid_5"
    },
    {
       name: "Emotional Intelligence",
       src: "./Module/hr/Emotional-Intelligence",
-      id: "vid_5"
+      id: "vid_6"
    },
    {
       name: "Communication Skills",
       src: "./Module/hr/Communication-Skills",
-      id: "vid_6"
+      id: "vid_7"
    },
    {
       name: "Meeting Etiquette",
       src: "./Module/hr/Meeting-Etiquette",
-      id: "vid_7"
+      id: "vid_8"
    },
    {
       name: "Problem Solving",
       src: "./Module/hr/Problem-Solving",
-      id: "vid_8"
+      id: "vid_9"
    },
    {
       name: "Stress-Management",
       src: "./Module/hr/Stress-Management",
-      id: "vid_9"
+      id: "vid_10"
    },
    {
       name: "Teamwork",
       src: "./Module/hr/Teamwork",
-      id: "vid_10"
+      id: "vid_11"
    },
    {
       name: "Telephone Etiquette",
       src: "./Module/hr/Telephone-Etiquette",
-      id: "vid_11"
+      id: "vid_12"
    },
    {
       name: "Decision Making",
       src: "./Module/hr/Decision-Making",
-      id: "vid_12"
-   },
-   {
-      name: "Work Ethics",
-      src: "./Module/hr/Work-Ethics",
       id: "vid_13"
    },
    {
