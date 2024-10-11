@@ -40,23 +40,23 @@ let allVideos = [
       id: "vid_8"
    },
    {
+      name: "Telephone Etiquette",
+      src: "./Module/hr/Telephone-Etiquette",
+      id: "vid_9"
+   },
+   {
       name: "Problem Solving",
       src: "./Module/hr/Problem-Solving",
-      id: "vid_9"
+      id: "vid_10"
    },
    {
       name: "Stress-Management",
       src: "./Module/hr/Stress-Management",
-      id: "vid_10"
+      id: "vid_11"
    },
    {
       name: "Teamwork",
       src: "./Module/hr/Teamwork",
-      id: "vid_11"
-   },
-   {
-      name: "Telephone Etiquette",
-      src: "./Module/hr/Telephone-Etiquette",
       id: "vid_12"
    },
    {
