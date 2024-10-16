@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" type="x-icon" href="images/PCLA-01.png">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>PCL ACADEMY</title>
+     <link rel="stylesheet" href="css/opsmodule.css">
+ </head>
+ 
+ <body oncontextmenu="return false" controlslist="nodownload">
+    <img src="images/department/test11.png" class="bgg">
+    <header class="header1">
+        <nav>
+            <a href="operations.html"><-back</a>
+            <a id="logout">logout</a>
+        </nav>
+    </header>
+    <a id="account-details" class="accountsss"></a>
+    <section class="hrvideo">
+        <h2 class="title"></h2>
+        <div class="container">
+            <div id="video_player">
+                <video controls id="main-Video" src="" controlsList="nodownload"></video>
+            </div>
+            <div class="playlistBx">
+                <div class="header">
+                    <div class="row">
+                        <span class="AllLessons"></span>
+                    </div>
+                </div>
+                <ul class="playlist" id="playlist">
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    
+    <div class="container2">
+        <div class="exampop0000">
+            <div class="exam0000"><iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=gNxKPARwFU-0dqgwLNY990Eg5jL1cPhEvx_dL5cYWuBUREs3TVJEU1AwQUlHOU44S01VWkRTT0pKRi4u&embed=true" oncontextmenu="return false" controlslist="nodownload"></iframe>
+                <img src="images/close.png" class="examclose" onclick="examtoggle0000()">
+            </div>
+        </div>
+        <div class="exampop000">
+            <div class="exam000"><iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=gNxKPARwFU-0dqgwLNY990Eg5jL1cPhEvx_dL5cYWuBUOFlBSEoxVURVTzRDUThWNk1WRDVRRUhQSi4u&embed=true" oncontextmenu="return false" controlslist="nodownload"></iframe>
+                <img src="images/close.png" class="examclose" onclick="examtoggle000()">
+            </div>
+        </div>
+        <div class="exampop00">
+            <div class="exam0"><iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=gNxKPARwFU-0dqgwLNY990Eg5jL1cPhEvx_dL5cYWuBUM0NGRk1OTk83NzVESlcwSzA3Sk9ZWkJOWC4u&embed=true" oncontextmenu="return false" controlslist="nodownload"></iframe>
+                <img src="images/close.png" class="examclose" onclick="examtoggle00()">
+            </div>
+        </div>
+        <div class="exampop0">
+            <div class="exam0"><iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=gNxKPARwFU-0dqgwLNY990Eg5jL1cPhEvx_dL5cYWuBUQlVKR0YxV0I1UEJDSVNUWUFPM0cyVlVJTS4u&embed=true" oncontextmenu="return false" controlslist="nodownload"></iframe>
+                <img src="images/close.png" class="examclose" onclick="examtoggle0()">
+            </div>
+        </div>
+        <div class="exampop1">
+            <div class="exam1"><iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=gNxKPARwFU-0dqgwLNY990Eg5jL1cPhEvx_dL5cYWuBUNDdRUU5XOTdTVFQ1SzRaVUpIRDVCNU1DTC4u&embed=true" oncontextmenu="return false" controlslist="nodownload"></iframe>
+                <img src="images/close.png" class="examclose" onclick="examtoggle1()">
+            </div>
+        </div>
+        <div class="exampop2">
+            <div class="exam3"><iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=gNxKPARwFU-0dqgwLNY990Eg5jL1cPhEvx_dL5cYWuBUMUxWVjNOR1FRVTVENEZHSkw1UlFYRk1UTS4u&embed=true" oncontextmenu="return false" controlslist="nodownload"></iframe>
+                <img src="images/close.png" class="examclose" onclick="examtoggle2()">
+            </div>
+        </div>
+        <div class="exampop3">
+            <div class="exam2"><iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=gNxKPARwFU-0dqgwLNY990Eg5jL1cPhEvx_dL5cYWuBUN1FNQk4yM0xUVTg3TkxFVkhHOVJBMTc4Vi4u&embed=true" oncontextmenu="return false" controlslist="nodownload"></iframe>
+                <img src="images/close.png" class="examclose" onclick="examtoggle3()">
+            </div>
+        </div>
+        <div class="exampop4">
+            <div class="exam4"><iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=gNxKPARwFU-0dqgwLNY990Eg5jL1cPhEvx_dL5cYWuBURDNPNDlWVldYMElDSFBNWTJLUU1FTVlZVS4u&embed=true" oncontextmenu="return false" controlslist="nodownload"></iframe>
+                <img src="images/close.png" class="examclose" onclick="examtoggle4()">
+            </div>
+        </div>
+    </div>
+
+    <section class="hrexam" id="hrexam"> 
+        <div class="container4 swiper">
+            <div class="slider-wrapper">
+                <div class="card-list swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img src="image/Work Ethics-Cover.jpg" alt="User Image" class="user-image">
+                        <h2 class="user-name">Work Ethics</h2>
+                        <button class="message-button" onclick="examtoggle0000()">EXAM</button>                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="image/Goal Setting-Cover.jpg" alt="User Image" class="user-image">
+                        <h2 class="user-name">Goal Setting</h2>
+                        <button class="message-button" onclick="examtoggle000()">EXAM</button>                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="image/Self Management-Cover.jpg" alt="User Image" class="user-image">
+                        <h2 class="user-name">Self Management</h2>
+                        <button class="message-button" onclick="examtoggle00()">EXAM</button>                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="image/Time Management-Cover.png" alt="User Image" class="user-image">
+                        <h2 class="user-name">Time Management</h2>
+                        <button class="message-button" onclick="examtoggle0()">EXAM</button>                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="image/Communication Etiquette-Cover.jpg" alt="User Image" class="user-image">
+                        <h2 class="user-name">Communication Etiquette</h2>
+                        <button class="message-button" onclick="examtoggle1()">EXAM</button>                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="image/Emotional Intelligence-Cover.jpg" alt="User Image" class="user-image">
+                        <h2 class="user-name">Emotional Intelligence</h2>
+                        <button class="message-button" onclick="examtoggle2()">EXAM</button>                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="image/Communication Skills-Cover.jpg" alt="User Image" class="user-image">
+                        <h2 class="user-name">Communication Skills</h2>
+                        <button class="message-button" onclick="examtoggle3()">EXAM</button>                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img src="image/Meeting Etiquette-Cover.jpg" alt="User Image" class="user-image">
+                        <h2 class="user-name">Meeting Etiquette</h2>
+                        <button class="message-button" onclick="examtoggle4()">EXAM</button>                      
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+    </section> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/opsmodule1.js"></script>
+    <script src="js/opsmodule2.js"></script>
+    <div class="loader"></div>
+
+</body>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+    import { getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyCYMZyy7JSbJbG4Nif-ekkTqwuI-0fbUU0",
+        authDomain: "pcl-academy-89a25.firebaseapp.com",
+        databaseURL: "https://pcl-academy-89a25-default-rtdb.firebaseio.com",
+        projectId: "pcl-academy-89a25",
+        storageBucket: "pcl-academy-89a25.appspot.com",
+        messagingSenderId: "123284274189",
+        appId: "1:123284274189:web:9228fd272012704e7fa944"
+    };
+    const app = initializeApp(firebaseConfig);
+
+
+    const auth = getAuth();
+
+    onAuthStateChanged(auth, (user) => {
+    if (user) {
+    const uid = user.uid;
+    const accountDetails = document.querySelector('#account-details');
+    const html = ` <div>Logged in as : ${user.email}</div>`;
+    accountDetails.innerHTML = html;
+
+
+     } else {
+        window.location.href = "index.html";
+    }
+    });
+
+    const logout = document.querySelector('#logout');
+        logout.addEventListener('click',(e)=>{
+            e.preventDefault();
+            signOut(auth).then(() => {
+            alert('User Logged Out!');
+            window.location.href = "index.html";
+
+        }).catch((error) => {
+        // An error happened.
+        });
+
+        });
+
+    
+</script>
+
+</html>
