@@ -40,8 +40,8 @@ let allVideos = [
       id: "vid_8"
    },
    {
-      name: "Telephone Etiquette",
-      src: "./Module/hr/Telephone-Etiquette",
+      name: "Decision Making",
+      src: "./Module/hr/Decision-Making",
       id: "vid_9"
    },
    {
@@ -60,8 +60,8 @@ let allVideos = [
       id: "vid_12"
    },
    {
-      name: "Decision Making",
-      src: "./Module/hr/Decision-Making",
+      name: "Telephone Etiquette",
+      src: "./Module/hr/Telephone-Etiquette",
       id: "vid_13"
    },
    {
