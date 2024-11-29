@@ -95,7 +95,7 @@ li{
     list-style: none;
     background: #f8f8f8;
 }
-.hrvideo{
+.opsvideo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +212,7 @@ ul li.playing .row span::before{
    border: 0.5px solid #A5A5A5;
 }
 @media(max-width: 1092px){
-    .hrvideo
+    .opsvideo
     {
         padding: 30px 10px;
     }
@@ -252,10 +252,7 @@ ul li.playing .row span::before{
     }
 }
 
-.exampop0000,
-.exampop000,
-.exampop00,
-.exampop0,
+
 .exampop1,
 .exampop2,
 .exampop3,
@@ -278,10 +275,6 @@ ul li.playing .row span::before{
     visibility: hidden;
     opacity: 0;
 }
-.exampop0000.active,
-.exampop000.active,
-.exampop00.active,
-.exampop0.active,
 .exampop1.active,
 .exampop2.active,
 .exampop3.active,
@@ -289,10 +282,6 @@ ul li.playing .row span::before{
     visibility: visible;
     opacity: 1;
 }
-.exampop0000 iframe,
-.exampop000 iframe,
-.exampop00 iframe,
-.exampop0 iframe,
 .exampop1 iframe,
 .exampop2 iframe,
 .exampop3 iframe,
@@ -313,10 +302,6 @@ ul li.playing .row span::before{
     filter: invert(1);
 }
 @media (max-width: 991px) {
-    .exampop0000 iframe,
-    .exampop000 iframe,
-    .exampop00 iframe,
-    .exampop0 iframe,
     .exampop1 iframe,
     .exampop2 iframe,
     .exampop3 iframe,
@@ -326,7 +311,7 @@ ul li.playing .row span::before{
     }
 
 
-    .hrexam {
+    .opsexam {
         display: flex;
         align-items: center;
         justify-content: center;
