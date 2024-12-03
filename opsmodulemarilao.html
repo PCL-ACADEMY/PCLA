@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" type="x-icon" href="images/PCLA-01.png">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>PCL ACADEMY</title>
+     <link rel="stylesheet" href="css/opsmodulemarilao.css">
+ </head>
+ 
+ <body oncontextmenu="return false" controlslist="nodownload">
+    <img src="images/department/marilao.png" class="bgg">
+    <header class="header1">
+        <nav>
+            <a href="operations.html"><-back</a>
+            <a id="logout">logout</a>
+        </nav>
+    </header>
+    <a id="account-details" class="accountsss"></a>
+    <section class="opsvideo">
+        <h2 class="title"></h2>
+        <div class="container">
+            <div id="video_player">
+                <video controls id="main-Video" src="" controlsList="nodownload"></video>
+            </div>
+            <div class="playlistBx">
+                <div class="header">
+                    <div class="row">
+                        <span class="AllLessons"></span>
+                    </div>
+                </div>
+                <ul class="playlist" id="playlist">
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="container2">
+        <div class="exampop1">
+            <div class="exam1"><iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=gNxKPARwFU-0dqgwLNY990Eg5jL1cPhEvx_dL5cYWuBUNlgxNjIxSkpGTU9EREFKUTlNOFI4QTI3Wi4u&embed=true" oncontextmenu="return false" controlslist="nodownload"></iframe>
+                <img src="images/close.png" class="examclose" onclick="examtoggle1()">
+            </div>
+        </div>
+    </div>
+
+    <section class="opsexam" id="opsexam"> 
+        <div class="container4 swiper">
+            <div class="slider-wrapper">
+                <div class="card-list swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img src="image/marilaoinbound.png" alt="User Image" class="user-image">
+                        <h2 class="user-name">Inbound SAP Process</h2>
+                        <button class="message-button" onclick="examtoggle1()">EXAM</button>                      
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/opsmodulemarilao1.js"></script>
+    <script src="js/opsmodulemarilao2.js"></script>
+    <div class="loader"></div>
+
+</body>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+    import { getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyCYMZyy7JSbJbG4Nif-ekkTqwuI-0fbUU0",
+        authDomain: "pcl-academy-89a25.firebaseapp.com",
+        databaseURL: "https://pcl-academy-89a25-default-rtdb.firebaseio.com",
+        projectId: "pcl-academy-89a25",
+        storageBucket: "pcl-academy-89a25.appspot.com",
+        messagingSenderId: "123284274189",
+        appId: "1:123284274189:web:9228fd272012704e7fa944"
+    };
+    const app = initializeApp(firebaseConfig);
+
+
+    const auth = getAuth();
+
+    onAuthStateChanged(auth, (user) => {
+    if (user) {
+    const uid = user.uid;
+    const accountDetails = document.querySelector('#account-details');
+    const html = ` <div>Logged in as : ${user.email}</div>`;
+    accountDetails.innerHTML = html;
+
+
+     } else {
+        window.location.href = "index.html";
+    }
+    });
+
+    const logout = document.querySelector('#logout');
+        logout.addEventListener('click',(e)=>{
+            e.preventDefault();
+            signOut(auth).then(() => {
+            alert('User Logged Out!');
+            window.location.href = "index.html";
+
+        }).catch((error) => {
+        // An error happened.
+        });
+
+        });
+
+    
+</script>
+
+</html>
