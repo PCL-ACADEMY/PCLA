@@ -15,8 +15,18 @@ let allVideos = [
       id: "vid_3"
    },
    {
-      name: "Buns Loadplanning Process (OUTBOUND)",
-      src: "./Module/ops/Buns-Loadplanning-Process",
+      name: "RPS Reservation Process",
+      src: "./Module/ops/RPS-ReservationProcess",
       id: "vid_4"
    },
+   {
+      name: "RPS Toller Pick-up Process",
+      src: "./Module/ops/RPS-Toller",
+      id: "vid_5"
+   },
+   {
+      name: "Buns Loadplanning Process (OUTBOUND)",
+      src: "./Module/ops/Buns-Loadplanning-Process",
+      id: "vid_6"
+   }
  ]
