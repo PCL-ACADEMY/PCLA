@@ -256,7 +256,8 @@ ul li.playing .row span::before{
 .exampop1,
 .exampop2,
 .exampop3,
-.exampop4
+.exampop4,
+.exampop5
  {
     position: fixed;
     display: flex;
@@ -278,14 +279,16 @@ ul li.playing .row span::before{
 .exampop1.active,
 .exampop2.active,
 .exampop3.active,
-.exampop4.active {
+.exampop4.active,
+.exampop5.active {
     visibility: visible;
     opacity: 1;
 }
 .exampop1 iframe,
 .exampop2 iframe,
 .exampop3 iframe,
-.exampop4 iframe {
+.exampop4 iframe,
+.exampop5 iframe {
     position: relative;
     width: 900px;
     height: 600px;
@@ -305,7 +308,8 @@ ul li.playing .row span::before{
     .exampop1 iframe,
     .exampop2 iframe,
     .exampop3 iframe,
-    .exampop4 iframe {
+    .exampop4 iframe,
+    .exampop5 iframe {
         max-width: 90%;
     }
     }
