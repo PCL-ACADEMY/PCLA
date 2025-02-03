@@ -25,8 +25,18 @@ let allVideos = [
       id: "vid_5"
    },
    {
+      name: "FG Loadplanning Process",
+      src: "./Module/ops/fg-loadplanning",
+      id: "vid_6"
+   },
+   {
       name: "Buns Loadplanning Process (OUTBOUND)",
       src: "./Module/ops/Buns-Loadplanning-Process",
-      id: "vid_6"
+      id: "vid_7"
+   },
+   {
+      name: "Outbound Process",
+      src: "./Module/ops/Outbound-Process",
+      id: "vid_8"
    }
  ]
