@@ -45,33 +45,33 @@ let allVideos = [
       id: "vid_9"
    },
    {
+      name: "Interpersonal and Intrapersonal Communication",
+      src: "./Module/hr/Interpersonal-and-Intrapersonal-Communication",
+      id: "vid_10"
+   },
+   {
       name: "Problem Solving",
       src: "./Module/hr/Problem-Solving",
-      id: "vid_10"
+      id: "vid_11"
    },
    {
       name: "Stress-Management",
       src: "./Module/hr/Stress-Management",
-      id: "vid_11"
+      id: "vid_12"
    },
    {
       name: "Teamwork",
       src: "./Module/hr/Teamwork",
-      id: "vid_12"
+      id: "vid_13"
    },
    {
       name: "Telephone Etiquette",
       src: "./Module/hr/Telephone-Etiquette",
-      id: "vid_13"
+      id: "vid_14"
    },
    {
       name: "Public Speaking",
       src: "./Module/hr/Public-Speaking",
-      id: "vid_14"
-   },
-   {
-      name: "Interpersonal and Intrapersonal Communication",
-      src: "./Module/hr/Interpersonal-and-Intrapersonal-Communication",
       id: "vid_15"
    },
    {
