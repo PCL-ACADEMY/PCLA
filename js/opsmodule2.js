@@ -123,6 +123,10 @@ function examtoggle6(){
    var e6= document.querySelector('.exampop6')
    e6.classList.toggle('active')
 }
+function examtoggle7(){
+   var e7= document.querySelector('.exampop7')
+   e7.classList.toggle('active')
+}
 
 const swiper = new Swiper('.slider-wrapper', {
 
