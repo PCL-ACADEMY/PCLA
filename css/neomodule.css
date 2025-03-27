@@ -253,7 +253,8 @@ ul li.playing .row span::before{
 }
 
 .exampop1,
-.exampop2 {
+.exampop2,
+.exampop3 {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -272,12 +273,14 @@ ul li.playing .row span::before{
     opacity: 0;
 }
 .exampop1.active,
-.exampop2.active {
+.exampop2.active,
+.exampop3.active {
     visibility: visible;
     opacity: 1;
 }
 .exampop1 iframe,
-.exampop1 iframe {
+.exampop2 iframe,
+.exampop3 iframe {
     position: relative;
     width: 900px;
     height: 600px;
@@ -294,7 +297,9 @@ ul li.playing .row span::before{
     filter: invert(1);
 }
 @media (max-width: 991px) {
-    .exampop1 iframe {
+    .exampop1 iframe,
+    .exampop2 iframe,
+    .exampop3 iframe {
         max-width: 90%;
     }
     }

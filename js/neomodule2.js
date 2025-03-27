@@ -91,6 +91,10 @@ function examtoggle2(){
    var e2= document.querySelector('.exampop2')
    e2.classList.toggle('active')
 }
+function examtoggle3(){
+   var e3= document.querySelector('.exampop3')
+   e3.classList.toggle('active')
+}
 
 
 const swiper = new Swiper('.slider-wrapper', {
