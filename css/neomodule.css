@@ -252,7 +252,8 @@ ul li.playing .row span::before{
     }
 }
 
-.exampop1 {
+.exampop1,
+.exampop2 {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -270,10 +271,12 @@ ul li.playing .row span::before{
     visibility: hidden;
     opacity: 0;
 }
-.exampop1.active {
+.exampop1.active,
+.exampop2.active {
     visibility: visible;
     opacity: 1;
 }
+.exampop1 iframe,
 .exampop1 iframe {
     position: relative;
     width: 900px;
