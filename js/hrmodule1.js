@@ -50,48 +50,61 @@ let allVideos = [
       id: "vid_10"
    },
    {
-      name: "Problem Solving",
-      src: "./Module/hr/Problem-Solving",
+      name: "Improving Self Management",
+      src: "./Module/hr/Improving-Self-Management",
       id: "vid_11"
    },
    {
-      name: "Stress-Management",
-      src: "./Module/hr/Stress-Management",
+      name: "Work-life Balance",
+      src: "./Module/hr/Work-Life-Balance",
       id: "vid_12"
-   },
-   {
-      name: "Teamwork",
-      src: "./Module/hr/Teamwork",
-      id: "vid_13"
-   },
-   {
-      name: "Telephone Etiquette",
-      src: "./Module/hr/Telephone-Etiquette",
-      id: "vid_14"
-   },
-   {
-      name: "Public Speaking",
-      src: "./Module/hr/Public-Speaking",
-      id: "vid_15"
-   },
-   {
-      name: "Punctuality",
-      src: "./Module/hr/Punctuality",
-      id: "vid_16"
-   },
-   {
-      name: "Professional Dress Code",
-      src: "./Module/hr/Professional-Dress-Code",
-      id: "vid_17"
    },
    {
       name: "Leadership Skills",
       src: "./Module/hr/Leadership-Skills",
+      id: "vid_13"
+   },
+   {
+      name: "Professional Dress Code",
+      src: "./Module/hr/Professional-Dress-Code",
+      id: "vid_14"
+   },
+   {
+      name: "Designing Office Desk",
+      src: "./Module/hr/Designing-Office-Desk",
+      id: "vid_15"
+   },
+   {
+      name: "Public Speaking",
+      src: "./Module/hr/Public-Speaking",
+      id: "vid_16"
+   },
+   /*
+   {
+      name: "Telephone Etiquette",
+      src: "./Module/hr/Telephone-Etiquette",
+      id: "vid_17"
+   },
+   {
+      name: "Teamwork",
+      src: "./Module/hr/Teamwork",
       id: "vid_18"
    },
    {
-      name: "Office Desk",
-      src: "./Module/hr/Office-Desk",
+      name: "Stress-Management",
+      src: "./Module/hr/Stress-Management",
       id: "vid_19"
    },
+   {
+      name: "Punctuality",
+      src: "./Module/hr/Punctuality",
+      id: "vid_20"
+   },
+    /*
+   {
+      name: "Problem Solving",
+      src: "./Module/hr/Problem-Solving",
+      id: ""
+   },
+  */
  ]

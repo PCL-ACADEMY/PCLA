@@ -123,6 +123,48 @@ function examtoggle6(){
    var e6= document.querySelector('.exampop6')
    e6.classList.toggle('active')
 }
+function examtoggle11(){
+   var e11= document.querySelector('.exampop11')
+   e11.classList.toggle('active')
+}
+function examtoggle12(){
+   var e12= document.querySelector('.exampop12')
+   e12.classList.toggle('active')
+}
+function examtoggle13(){
+   var e13= document.querySelector('.exampop13')
+   e13.classList.toggle('active')
+}
+function examtoggle14(){
+   var e14= document.querySelector('.exampop14')
+   e14.classList.toggle('active')
+}
+function examtoggle15(){
+   var e15= document.querySelector('.exampop15')
+   e15.classList.toggle('active')
+}
+function examtoggle16(){
+   var e16= document.querySelector('.exampop16')
+   e16.classList.toggle('active')
+}
+function examtoggle17(){
+   var e17= document.querySelector('.exampop17')
+   e17.classList.toggle('active')
+}
+function examtoggle18(){
+   var e18= document.querySelector('.exampop18')
+   e18.classList.toggle('active')
+}
+function examtoggle19(){
+   var e19= document.querySelector('.exampop19')
+   e19.classList.toggle('active')
+}
+function examtoggle20(){
+   var e20= document.querySelector('.exampop20')
+   e20.classList.toggle('active')
+}
+
+
 
 
 const swiper = new Swiper('.slider-wrapper', {

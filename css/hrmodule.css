@@ -261,7 +261,17 @@ ul li.playing .row span::before{
 .exampop3,
 .exampop4,
 .exampop5,
-.exampop6
+.exampop6,
+.exampop11,
+.exampop12,
+.exampop13,
+.exampop14,
+.exampop15,
+.exampop16,
+.exampop17,
+.exampop18,
+.exampop19,
+.exampop20
  {
     position: fixed;
     display: flex;
@@ -289,7 +299,17 @@ ul li.playing .row span::before{
 .exampop3.active,
 .exampop4.active,
 .exampop5.active,
-.exampop6.active {
+.exampop6.active,
+.exampop11.active,
+.exampop12.active,
+.exampop13.active,
+.exampop14.active,
+.exampop15.active,
+.exampop16.active,
+.exampop17.active,
+.exampop18.active,
+.exampop19.active,
+.exampop20.active {
     visibility: visible;
     opacity: 1;
 }
@@ -302,7 +322,17 @@ ul li.playing .row span::before{
 .exampop3 iframe,
 .exampop4 iframe,
 .exampop5 iframe,
-.exampop6 iframe  {
+.exampop6 iframe,
+.exampop11 iframe,
+.exampop12 iframe,
+.exampop13 iframe,
+.exampop14 iframe,
+.exampop15 iframe,
+.exampop16 iframe,
+.exampop17 iframe,
+.exampop18 iframe,
+.exampop19 iframe,
+.exampop20 iframe  {
     position: relative;
     width: 900px;
     height: 600px;
@@ -328,7 +358,17 @@ ul li.playing .row span::before{
     .exampop3 iframe,
     .exampop4 iframe,
     .exampop5 iframe,
-    .exampop6 iframe {
+    .exampop6 iframe,
+    .exampop11 iframe,
+    .exampop12 iframe,
+    .exampop13 iframe,
+    .exampop14 iframe,
+    .exampop15 iframe,
+    .exampop16 iframe,
+    .exampop17 iframe,
+    .exampop18 iframe,
+    .exampop19 iframe,
+    .exampop20 iframe {
         max-width: 90%;
     }
     }
