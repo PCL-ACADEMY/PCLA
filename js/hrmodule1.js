@@ -79,7 +79,6 @@ let allVideos = [
       src: "./Module/hr/Public-Speaking",
       id: "vid_16"
    },
-   /*
    {
       name: "Telephone Etiquette",
       src: "./Module/hr/Telephone-Etiquette",
