@@ -24,5 +24,10 @@ let allVideos = [
       src: "./Module/neo/3ES",
       id: "vid_5"
    },
+   {
+      name: "Internal Healthcare Plan",
+      src: "./Module/neo/IHP",
+      id: "vid_6"
+   },
    
  ]

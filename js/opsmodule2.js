@@ -127,6 +127,10 @@ function examtoggle7(){
    var e7= document.querySelector('.exampop7')
    e7.classList.toggle('active')
 }
+function examtoggle8(){
+   var e8= document.querySelector('.exampop8')
+   e8.classList.toggle('active')
+}
 
 const swiper = new Swiper('.slider-wrapper', {
 

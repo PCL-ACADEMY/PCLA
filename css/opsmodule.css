@@ -259,7 +259,8 @@ ul li.playing .row span::before{
 .exampop4,
 .exampop5,
 .exampop6,
-.exampop7
+.exampop7,
+.exampop8
  {
     position: fixed;
     display: flex;
@@ -284,7 +285,8 @@ ul li.playing .row span::before{
 .exampop4.active,
 .exampop5.active,
 .exampop6.active,
-.exampop7.active {
+.exampop7.active,
+.exampop8.active {
     visibility: visible;
     opacity: 1;
 }
@@ -294,7 +296,8 @@ ul li.playing .row span::before{
 .exampop4 iframe,
 .exampop5 iframe,
 .exampop6 iframe,
-.exampop7 iframe {
+.exampop7 iframe,
+.exampop8 iframe {
     position: relative;
     width: 900px;
     height: 600px;
@@ -317,7 +320,8 @@ ul li.playing .row span::before{
     .exampop4 iframe,
     .exampop5 iframe,
     .exampop6 iframe,
-    .exampop7 iframe {
+    .exampop7 iframe,
+    .exampop8 iframe {
         max-width: 90%;
     }
     }
