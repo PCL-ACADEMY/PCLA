@@ -14,4 +14,15 @@ let allVideos = [
       src: "./Module/neo/GWP",
       id: "vid_3"
    },
+   {
+      name: "PESA",
+      src: "./Module/neo/PESA",
+      id: "vid_4"
+   },
+   {
+      name: "Employee Savings Association",
+      src: "./Module/neo/3ES",
+      id: "vid_5"
+   },
+   
  ]
