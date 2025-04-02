@@ -20,7 +20,7 @@ let allVideos = [
       id: "vid_4"
    },
    {
-      name: "Employee Savings Association",
+      name: "Everything Excellent Everyday",
       src: "./Module/neo/3ES",
       id: "vid_5"
    },
