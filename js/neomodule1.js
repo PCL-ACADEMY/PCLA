@@ -15,7 +15,7 @@ let allVideos = [
       id: "vid_3"
    },
    {
-      name: "PESA",
+      name: "Employee Savings Association",
       src: "./Module/neo/PESA",
       id: "vid_4"
    },
