@@ -1,7 +1,7 @@
 let allVideos = [
    {
       name: "Company Profile",
-      src: "./Module/neo/cp",
+      src: "./Module/neo/CP",
       id: "vid_1"
    },
    {
