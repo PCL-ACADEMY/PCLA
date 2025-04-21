@@ -163,6 +163,10 @@ function examtoggle20(){
    var e20= document.querySelector('.exampop20')
    e20.classList.toggle('active')
 }
+function examtoggle21(){
+   var e21= document.querySelector('.exampop21')
+   e21.classList.toggle('active')
+}
 
 
 

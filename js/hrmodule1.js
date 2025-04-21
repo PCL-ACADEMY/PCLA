@@ -98,6 +98,11 @@ let allVideos = [
       name: "Punctuality",
       src: "./Module/hr/Punctuality",
       id: "vid_20"
+   },   
+   {
+      name: "Drug Module",
+      src: "./Module/hr/Drug-Module",
+      id: "vid_21"
    },
     /*
    {
