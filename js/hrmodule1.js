@@ -106,7 +106,7 @@ let allVideos = [
    },
       {
       name: "Drugs Module",
-      src: "./Module/hr/Drug-Module-Tagalog",
+      src: "./Module/hr/drugs-module-tagalog",
       id: "vid_22"
    },
     /*
