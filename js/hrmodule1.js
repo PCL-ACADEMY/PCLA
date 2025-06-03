@@ -104,10 +104,25 @@ let allVideos = [
       src: "./Module/hr/Drug-Module",
       id: "vid_21"
    },
+   {
+      name: "Drugs Module Tagalog",
+      src: "./Module/hr/drugs-module-tagalog",
+      id: "vid_22"
+   },
       {
       name: "Drugs Module",
       src: "./Module/hr/drugs-module-tagalog",
-      id: "vid_22"
+      id: "vid_23"
+   },
+      {
+      name: "Drugs Module",
+      src: "./Module/hr/drugs-module-tagalog",
+      id: "vid_24"
+   },
+      {
+      name: "Drugs Module",
+      src: "./Module/hr/drugs-module-tagalog",
+      id: "vid_25"
    },
     /*
    {
