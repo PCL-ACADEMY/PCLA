@@ -109,21 +109,32 @@ let allVideos = [
       src: "./Module/hr/drugs-module-tagalog",
       id: "vid_22"
    },
-      {
-      name: "Drugs Module",
+   {
+      name: "Boosting Confidence",
       src: "./Module/hr/drugs-module-tagalog",
       id: "vid_23"
    },
-      {
-      name: "Drugs Module",
-      src: "./Module/hr/drugs-module-tagalog",
+   {
+      name: "Dress for Success",
+      src: "./Module/hr/Dress for success",
       id: "vid_24"
    },
-      {
-      name: "Drugs Module",
-      src: "./Module/hr/drugs-module-tagalog",
+   {
+      name: "Modern Leadership",
+      src: "./Module/hr/Leadership",
       id: "vid_25"
    },
+   {
+      name: "Effective Leadership",
+      src: "./Module/hr/Effective Leadership",
+      id: "vid_26"
+   },
+      {
+      name: "The Power of Listening",
+      src: "./Module/hr/power",
+      id: "vid_27"
+   },
+   
     /*
    {
       name: "Problem Solving",
