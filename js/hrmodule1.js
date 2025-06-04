@@ -111,7 +111,7 @@ let allVideos = [
    },
    {
       name: "Boosting Confidence",
-      src: "./Module/hr/drugs-module-tagalog",
+      src: "./Module/hr/Boosting Confidence",
       id: "vid_23"
    },
    {
