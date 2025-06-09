@@ -170,6 +170,26 @@ function examtoggle21(){
    var e22= document.querySelector('.exampop22')
    e22.classList.toggle('active')
 }
+function examtoggle23(){
+   var e23= document.querySelector('.exampop23')
+   e23.classList.toggle('active')
+}
+function examtoggle24(){
+   var e24= document.querySelector('.exampop24')
+   e24.classList.toggle('active')
+}
+function examtoggle25(){
+   var e25= document.querySelector('.exampop25')
+   e25.classList.toggle('active')
+}
+function examtoggle26(){
+   var e26= document.querySelector('.exampop26')
+   e26.classList.toggle('active')
+}
+function examtoggle27(){
+   var e27= document.querySelector('.exampop27')
+   e27.classList.toggle('active')
+}
 
 
 

@@ -273,7 +273,12 @@ ul li.playing .row span::before{
 .exampop19,
 .exampop20,
 .exampop21,
-.exampop22
+.exampop22,
+.exampop23,
+.exampop24,
+.exampop25,
+.exampop26,
+.exampop27
  {
     position: fixed;
     display: flex;
@@ -313,7 +318,13 @@ ul li.playing .row span::before{
 .exampop19.active,
 .exampop20.active,
 .exampop21.active,
-.exampop22.active {
+.exampop22.active,
+.exampop23.active,
+.exampop24.active,
+.exampop25.active,
+.exampop26.active,
+.exampop27.active 
+{
     visibility: visible;
     opacity: 1;
 }
@@ -338,7 +349,13 @@ ul li.playing .row span::before{
 .exampop19 iframe,
 .exampop20 iframe,
 .exampop21 iframe,
-.exampop22 iframe    {
+.exampop22 iframe,
+.exampop23 iframe,
+.exampop24 iframe,
+.exampop25 iframe,
+.exampop26 iframe,
+.exampop27 iframe
+{
     position: relative;
     width: 900px;
     height: 600px;
@@ -376,7 +393,12 @@ ul li.playing .row span::before{
     .exampop19 iframe,
     .exampop20 iframe,
     .exampop21 iframe,
-    .exampop22 iframe {
+    .exampop22 iframe,
+    .exampop23 iframe,
+    .exampop24 iframe,
+    .exampop25 iframe,
+    .exampop26 iframe,
+    .exampop27 iframe {
         max-width: 90%;
     }
     }
