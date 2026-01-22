@@ -139,6 +139,11 @@ let allVideos = [
       src: "./Module/hr/Workplace burnout",
       id: "vid_28"
    },
+      {
+      name: "Assertiveness",
+      src: "./Module/hr/assertivenes",
+      id: "vid_29"
+   },
    
     /*
    {
