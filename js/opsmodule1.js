@@ -38,5 +38,15 @@ let allVideos = [
       name: "Outbound Process",
       src: "./Module/ops/Outbound-Process",
       id: "vid_8"
+   },
+   {
+      name: "ICA Module Process 1",
+      src: "./Module/ops/ICA_Module_1",
+      id: "vid_9"
+   },
+   {
+      name: "ICA Module Process 2",
+      src: "./Module/ops/ICA_Module_2",
+      id: "vid_10"
    }
  ]
