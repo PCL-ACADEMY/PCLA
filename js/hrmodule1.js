@@ -144,12 +144,9 @@ let allVideos = [
       src: "./Module/hr/assertivenes",
       id: "vid_29"
    },
-   
-    /*
    {
       name: "Problem Solving",
       src: "./Module/hr/Problem-Solving",
-      id: ""
+      id: "vid_30"
    },
-  */
  ]
