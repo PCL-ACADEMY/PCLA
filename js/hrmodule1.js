@@ -146,7 +146,7 @@ let allVideos = [
    },
    {
       name: "Problem Solving",
-      src: "./Module/hr/Problem-Solving",
+      src: "./Module/hr/Problem Solving",
       id: "vid_30"
    },
  ]
