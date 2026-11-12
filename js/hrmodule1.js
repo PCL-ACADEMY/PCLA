@@ -146,7 +146,12 @@ let allVideos = [
    },
    {
       name: "Problem Solving",
-      src: "./Module/hr/Problem Solving",
+      src: "./Module/hr/Problem Solving-Vid",
       id: "vid_30"
    },
+   {
+      name: "Conflict Resolution in Warehousing & Logistics",
+      src: "./Module/hr/Warehouse-Floor-to-Office,Conflict-Resolution",
+      id: "vid_31"
+   }
  ]

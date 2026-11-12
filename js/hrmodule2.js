@@ -202,6 +202,10 @@ function examtoggle30(){
    var e30= document.querySelector('.exampop30')
    e30.classList.toggle('active')
 }
+function examtoggle31(){
+   var e31= document.querySelector('.exampop31')
+   e31.classList.toggle('active')
+}
 
 
 
